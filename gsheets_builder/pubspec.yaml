@@ -1,0 +1,4 @@
+name: gsheets_builder
+
+environment:
+  sdk: '>=2.12.1 <3.0.0'

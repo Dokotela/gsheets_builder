@@ -1,0 +1,8 @@
+builders:
+  gsheets_builder:
+    import: "package:gsheets_builder_generator/builder.dart"
+    builder_factories: ["gsheetsBuilder"]
+    build_extensions: {".dart": [".gsheets.g.part"]}
+    auto_apply: dependents
+    build_to: cache
+    applies_builders: ["source_gen|combining_builder"]

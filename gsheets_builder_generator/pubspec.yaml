@@ -1,0 +1,16 @@
+name: gsheets_builder_generator
+
+environment:
+  sdk: '>=2.12.1 <3.0.0'
+
+dependencies:
+  analyzer: ^1.3.0
+  build: ^2.0.0
+  build_config: ^0.4.7
+  gsheets: ^0.3.0-nullsafety.0
+  gsheets_builder:
+    path: ../gsheets_builder/
+  source_gen: ^1.0.0
+
+dev_dependencies:
+  test: ^1.16.8
